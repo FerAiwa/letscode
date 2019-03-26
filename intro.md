@@ -12,7 +12,8 @@ sin tener que volvernos a llamar a las 4 de la mañana.
 
 ## Conceptos que repasaremos
    * HTML: Forms
-   * JS: class, arrays, for, map, refactor
+   * JS: class, arrays, for, map
+   refactor
 
  Y probaremos 2 cosillas nuevas:
    * HTML: onClick
