@@ -1,7 +1,7 @@
-#Ejercicio I
-Te suena el móvil a las 4AM. Una llamada urgente de un cliente que ha tenido una idea reveladora que va a cambiar el mundo: ¡Vender comida por internet!
-Así empezó en 1994 Pizza Hut una de las primeras plataformas de e-commerce, con el primer pedidos de comida online.
-https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/PizzaHut_Online1994.jpg/1920px-PizzaHut_Online1994.jpg
+# Ejercicio I
+Te suena el móvil a las 4AM. Una llamada urgente de un cliente que ha tenido una idea reveladora que va a cambiar el mundo: 
+¡Vender comida por internet!
+Así empezó en 1994 Pizza Hut una de las primeras plataformas de e-commerce, con el primer pedidos de comida online. (¡o eso dice [wikipedia] (https://es.wikipedia.org/wiki/Pedido_de_comida_en_l%C3%ADnea)
 
 
 Un primer paso lógico antes de tener algo que vender, y enseñárselo al cliente, es TENER algo que vender.
