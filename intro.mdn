@@ -9,3 +9,11 @@ Vamos a crear un generador de pizzas.
 Hoy vamos a empezar a trabajar en la parte del negocio. Antes de empezar a pensar en pedidos, tiendas, tiempos de envío y descuentos,
 estaría bien tener un constructor de pizzas y un constructor de ingredientes. Así el cliente podrá actualizar su catálogo, 
 sin tener que volvernos a llamar a las 4 de la mañana.
+
+## Conceptos que repasaremos
+   * HTML: Forms
+   * JS: class, arrays, for, map, refactor
+
+ Y probaremos 2 cosillas nuevas:
+   * HTML: onClick
+   * JS: getElementById
