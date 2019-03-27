@@ -82,7 +82,7 @@ for (let compañero of compañeros) {
   sayThanks(compañero.name);
 }
 for (let i in compañeros) {
-  //devolvería 0, 1, 2....
+  //0, 1, 2....
   //Otro día podemos revisarlo iterando en objetos, donde in es especialmente util.
   //Como avance recuerda que:  
     //const alumna = {name: 'Estefania'} 
