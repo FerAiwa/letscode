@@ -22,7 +22,7 @@ const sum3 = a => a + 3;
 
 //Forma Larga
 const BOSificator = (name) => {
-  return (name += "_BOS");
+  return name + "_BOS";
 };
 
 //2. MAP & FILTER (métodos de array)
