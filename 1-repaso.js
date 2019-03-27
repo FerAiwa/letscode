@@ -37,6 +37,13 @@ const BOSificator = (name) => {
 
 // .map y . filter hacen operaciones sobre los valores pero NO cambian el array original. 
 // Igúalalos a otra variable para guardar esos datos.
+// ¿Que hace map? 
+// Hace una operación y te devuelve un nuevo array del mismo tamaño que el original, con los valores resultantes.
+// ¿Que hace filter? 
+//Después del => comprueba si la condición que has puesto es TRUE, -> valor === cosaquequiero ?
+//Devuelve un nuevo array con todos los elementos del array original que pasen ese "test de compatibilidad"
+//Sería el equivalente a hacer un for con un if dentro, que añada los true a otro array. ¡En una línea! ^^
+
 
 const muchaGente = [
   "Estefanía",
