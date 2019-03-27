@@ -21,7 +21,7 @@ function sayThanks(name) {
 const sum3 = a => a + 3;
 
 //Forma Larga
-const BOSificator = name => {
+const BOSificator = (name) => {
   return (name += "_BOS");
 };
 
