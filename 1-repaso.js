@@ -28,7 +28,7 @@ const BOSificator = (name) => {
 //2. MAP & FILTER (métodos de array)
 //---------------------------------------------------------------------------------------------
 //CLAVES que recordar:
-// Iteran sobre TODOS los valores del array. No tienen break.
+// Iteran sobre TODOS los valores del array. Como un for, pero no tienen break y hacen operaciones específicas.
 // Se pueden encadenar! (Porque devuelven otro array)
 // Mnemotecnia: "Usa VIA ou todo VAI o carallo".
 // Los argumentos del callback (la funcion dentro del map) siempre deben ser en orden: (v,i,a) -> Valor, Indice, Array.
