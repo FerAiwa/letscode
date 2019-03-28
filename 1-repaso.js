@@ -33,7 +33,7 @@ const BOSificator = name => {
 // Mnemotecnia: "Usa VIA ou todo VAI o carallo".
 // Los argumentos del callback (la funcion dentro del map) siempre deben ser en orden: (v,i,a) -> Valor, Indice, Array.
 // Tú puedes llamarle como quieras a ese v,i,a .(persona,indice,array) (value,index, arr) (x,i,arr)...
-// Tip: Empieza con la version larga (version,indice), hasta que la interiorices, y luego busca tu propia fórmula. Experimenta.
+// Tip: Empieza con la version larga (valor,indice), hasta que la interiorices, y luego busca tu propia fórmula. Experimenta.
 
 // .map y . filter hacen operaciones sobre los valores pero NO cambian el array original.
 // Igúalalos a otra variable para guardar esos datos.
