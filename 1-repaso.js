@@ -1,6 +1,6 @@
 //REPASO DEL Martes 26:
 // Contiene: FUNCIONES, ARROW FUNCTIONS, MAP, FILTER, FOR OF y FOR IN.
-// ¡Antes de leer  puedes importar este archivo en tu html y correrlo con el live server. Tiene sorpresa.
+// ¡Antes de leer puedes importar este archivo en tu html y correrlo con el live server. Tiene sorpresa.
 
 //1. FUNCIONES
 //---------------------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ function sayThanks(name) {
 const sum3 = a => a + 3;
 
 //Forma Larga
-const BOSificator = (name) => {
+const BOSificator = name => {
   return name + "_BOS";
 };
 
@@ -35,15 +35,14 @@ const BOSificator = (name) => {
 // Tú puedes llamarle como quieras a ese v,i,a .(persona,indice,array) (value,index, arr) (x,i,arr)...
 // Tip: Empieza con la version larga (version,indice), hasta que la interiorices, y luego busca tu propia fórmula. Experimenta.
 
-// .map y . filter hacen operaciones sobre los valores pero NO cambian el array original. 
+// .map y . filter hacen operaciones sobre los valores pero NO cambian el array original.
 // Igúalalos a otra variable para guardar esos datos.
-// ¿Que hace map? 
+// ¿Que hace map?
 // Hace una operación y te devuelve un nuevo array del mismo tamaño que el original, con los valores resultantes.
-// ¿Que hace filter? 
+// ¿Que hace filter?
 //Después del => comprueba si la condición que has puesto es TRUE, -> valor === cosaquequiero ?
 //Devuelve un nuevo array con todos los elementos del array original que pasen ese "test de compatibilidad"
 //Sería el equivalente a hacer un for con un if dentro, que añada los true a otro array. ¡En una línea! ^^
-
 
 const muchaGente = [
   "Estefanía",
@@ -61,7 +60,7 @@ const muchaGente = [
 
 const compañeros = muchaGente
   .filter((valor, i, a) => valor.includes("_BOS") == false)
-  .map(v => v = { name: v, group: 2, isAlumni: true, isTheBest: true });
+  .map(v => (v = { name: v, group: 2, isAlumni: true, isTheBest: true }));
 //Recuerda: Si es más de una línea usar {} y el return. En la versión breve es implicito, lo que va
 // después de la => es el nuevo valor que retorna.
 //Ojo a la sintaxis! En versión larga es fácil que se cuele algún paréntesis mal colocado o el } final.
@@ -88,24 +87,22 @@ for (let compañero of compañeros) {
   //{name:'Estefania', isAlumni: true, isTheBest: true}
   sayThanks(compañero.name);
 }
+
 for (let i in compañeros) {
   //0, 1, 2....
   //Otro día podemos revisarlo iterando en objetos, donde in es especialmente util.
-  //Como avance recuerda que:  
-    //const alumna = {name: 'Estefania'} 
-    //para acceder acceder al name podríamos hacerlo como.... 
-    //alumna.name
-    //alumna['name']
-    //o dinámicamente...
-    //let key = 'name'
-    //alumna[key] <--- te suena esta sintaxis de array[indice]...? Aquí está el truquini ;)
+  //Como avance recuerda que:
+  //const alumna = {name: 'Estefania'}
+  //para acceder acceder al name podríamos hacerlo como....
+  //alumna.name
+  //alumna['name']
+  //o dinámicamente...
+  //let key = 'name'
+  //alumna[key] <--- te suena esta sintaxis de array[indice]...? Aquí está el truquini ;)
 }
-
-
 
 //----------------------------------------------------------------------------------------------
 //Y para que asegurarnos  que el array original NO ha cambiado.... check!
 console.log("All the original people:", muchaGente);
 console.log("Best alumni", compañeros);
 console.log("Bosers", bosers);
-
