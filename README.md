@@ -6,9 +6,9 @@ En esta serie de tutoriales diseñaremos de forma colaborativa una miniApp.
 El objetivo es visualizar el proceso desde la petición del cliente, el diseño
 de la idea, y pasos del desarrollo hasta sacar un producto a Internet.
 
-## El proyecto Pizza Hug
+## Proyecto Pizza Hug 🍕
 
-[Pizza Hug™ 🍕] ://github.com/FerAiwa/letsprogram/blob/master/intro.md)
+[Una llamada a las 4 AM - Nace Pizza Hug™ 🍕](//github.com/FerAiwa/letsprogram/blob/master/intro.md)
 
 ## Resúmen de conceptos teóricos
 
