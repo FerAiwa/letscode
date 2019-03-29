@@ -62,7 +62,7 @@ function useTurboMix(ingredient1, ingredient2, ...moreIngredients) {
   return new Ingredient(resultName, resultCost);
 }
 //EXPLICACIONES
-// --> REST parameter (I)
+// --> REST parameter (1)
 //------------------------------------------------------------------------------
 /* El uso más simple: En funciones
   * Indica que el resto de argumentos son opcionales.
@@ -71,7 +71,7 @@ function useTurboMix(ingredient1, ingredient2, ...moreIngredients) {
   * Agrupa los argumentos adicionales que enviemos en esa variable (es iterable)
   * 
 ------------------------------------------------------------------------------
---> ¿Que es eso de arguments?
+--> Espera, ¿Que es eso de arguments?
 ------------------------------------------------------------------------------
   * Se puede iterar por los parámetros de cualquier función. 
   * Se almacenan como variable arguments.
@@ -80,6 +80,8 @@ function useTurboMix(ingredient1, ingredient2, ...moreIngredients) {
   ingredient2 = arguments[1]
   ...moreIngredients = arguments[2], arguments[3], arguments[n] (tantos como le envíes separados por comas)
 
+Arguments tendría intrediente1,ingrediente2 y todos los moreIngredients que enviemos
+mientras que ...moreIngredientes sólo agrupa los últimos.
 ------------------------------------------------------------------------------
   --> Explicación de la función useTurboMix()
   ------------------------------------------------------------------------------
