@@ -1,6 +1,6 @@
 # LETS CODE!
 
-A serialized colaborative tutorial for JS
+A serialized collaborative tutorial for JS
 
 En esta serie de tutoriales diseñaremos de forma colaborativa una miniApp.
 El objetivo es visualizar el proceso desde la petición del cliente, el diseño
